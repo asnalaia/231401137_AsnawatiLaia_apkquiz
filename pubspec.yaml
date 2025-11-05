@@ -84,6 +84,7 @@ flutter:
   assets:
     - assets/logo.png
     - assets/user.png
+    - assets/woody.png
 
 
 ##    - assets/Avatar Placeholder.png

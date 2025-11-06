@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'quiz_screen.dart';
+import '../widgets/primary_button.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -41,7 +42,6 @@ class _HomeScreenState extends State<HomeScreen> {
 
   @override
   Widget build(BuildContext context) {
-    // 1. Dapatkan ukuran layar perangkat
     final double screenWidth = MediaQuery.of(context).size.width;
 
     return Scaffold(
@@ -63,19 +63,15 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
               ),
               const SizedBox(height: 30),
-
-              // 2. PERUBAHAN: Lebar gambar sekarang 70% dari lebar layar
-              //    Tinggi dihapus agar rasio aspek gambar tetap terjaga
               Image.asset(
                 "assets/logo.png",
-                width: screenWidth * 0.7, // 70% dari lebar layar
+                width: screenWidth * 0.7,
               ),
               const SizedBox(height: 30),
 
-              // 3. PERUBAHAN: Lebar kontainer sekarang 80% dari lebar layar
               Container(
-                width: screenWidth * 0.8, // 80% dari lebar layar
-                height: 62, // Tinggi tetap untuk ergonomi tap
+                width: screenWidth * 0.8,
+                height: 62,
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(100),
                   color: Colors.white,
@@ -108,25 +104,11 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
               const SizedBox(height: 20),
 
-              // 4. PERUBAHAN: Lebar minimum tombol sekarang 80% dari lebar layar
-              ElevatedButton(
+              PrimaryButton(
+                width: screenWidth * 0.8,
+                text: "Mulai!",
+                fontSize: 32,
                 onPressed: _mulaiKuis,
-                style: ElevatedButton.styleFrom(
-                  backgroundColor: const Color(0xff7ed957),
-                  minimumSize: Size(screenWidth * 0.8, 62), // 80% lebar, 62 tinggi
-                  shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(100),
-                  ),
-                  elevation: 5,
-                ),
-                child: const Text(
-                  "Mulai!",
-                  style: TextStyle(
-                    fontSize: 32,
-                    fontWeight: FontWeight.w600,
-                    color: Colors.white,
-                  ),
-                ),
               ),
             ],
           ),

@@ -1,16 +1,9 @@
 # apkquiz
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+a. Asnawati Laia, 231401137, Lab Pemrograman Mobile 6
+b. quiz
+c. Aplikasi ini adalah 
+d. Font Poppins; https://fonts.google.com/specimen/Poppins
+   Font Baloo 2; https://www.dafontfree.io/baloo-2-font-family/
+e. Screenshoot aplikasi;
+f. Link Figma; https://www.figma.com/design/cMMpV94BEHDXoZK72BcjkK/Untitled?node-id=1-2&p=f&t=NlIZbYiUFEp8B9vI-0

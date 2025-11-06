@@ -11,6 +11,7 @@ c. Aplikasi ini merupakan kuis pilihan ganda interaktif di mana pengguna dapat m
 
 
 d. Font Poppins; https://fonts.google.com/specimen/Poppins
+
    Font Baloo 2; https://www.dafontfree.io/baloo-2-font-family/
    
 e. Screenshoot aplikasi;
